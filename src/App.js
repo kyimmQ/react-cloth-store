@@ -1,10 +1,17 @@
 import React from "react";
-import Categories from "./components/categories/Categories";
+import { Route, Routes } from "react-router-dom";
+import Home from "./routes/home/Home";
+import Navigation from "./components/navigation-bar/Navigation";
 
 const App = () => {
   return (
     <div className="App">
-      <Categories />
+      <Routes>
+        <Route path="/" element={<Navigation />}>
+          <Route path="" element={<Home />} />
+          <Route path="shop" element={<p>Shop</p>} />
+        </Route>
+      </Routes>
     </div>
   );
 };

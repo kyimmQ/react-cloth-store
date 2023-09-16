@@ -1,4 +1,4 @@
-import "./Category.scss";
+import "./Category.styles.scss";
 import React from "react";
 const Category = (props) => {
   const { imageUrl, title } = props;
