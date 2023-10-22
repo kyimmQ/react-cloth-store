@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import { ReactComponent as CrownLogo } from "../../assets/crown.svg";
@@ -12,7 +13,10 @@ const Navigation = (props) => {
         </Link>
         <div className="nav-links-container">
           <Link className="nav-link" to="/shop">
-            Shop
+            SHOP
+          </Link>
+          <Link className="nav-link" to="/auth">
+            SIGN IN
           </Link>
         </div>
       </nav>
