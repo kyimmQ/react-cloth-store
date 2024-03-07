@@ -1,6 +1,6 @@
 # Description
 
-Project from Udemy course - Complete React Developer (w/ Redux, Hooks, GraphQL)
+Project from Udemy course - Complete React Developer
 
 # Folder structure
 
